@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Instagram",
+    "link": "https://instagram.com/frc2204",
+    "image": "images/social/instagram.svg"
+  },
+  {
+    "name": "Github",
+    "link": "https://github.com/FRC2204-Rambots",
+    "image": "images/social/github.svg"
+  }
+]
