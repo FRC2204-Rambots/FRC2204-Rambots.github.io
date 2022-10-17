@@ -19,6 +19,7 @@ bodyClass: "page-teams"
 </div>
 
 <div class="container pt-6 pb-6">
+    <h1>Leadership</h1>
     <div class="row">
         {% assign promoted_teams = site.team | where: "promoted", true | sort: "weight" %}
         {% for team in promoted_teams %}
@@ -53,20 +54,37 @@ bodyClass: "page-teams"
         </div>
         {% endfor %}
     </div>
+    <h1>Students</h1>
     <div class="row pt-6 pb-6">
         {% assign teams = site.team | where: "promoted", empty | sort: "weight" %}
         {% for team in teams %}
-        <div class="col-12 col-md-4 mb-3">
-            <div class="team team-summary">
+        <div class="col-12 col-md-6 mb-2">
+            <div class="team team-summary team-summary-large">
                 {% if team.image %}
                 <div class="team-image">
-                    <img width="60" height="60" alt="{{ team.title }}" class="img-fluid mb-2" src="{{ team.image | relative_url }}" />
+                    <img width="90" height="90" alt="{{ team.title }}" class="img-fluid mb-2" src="{{ team.image | relative_url }}" />
                 </div>
                 {% endif %}
                 <div class="team-meta">
                     <h2 class="team-name"><a href="{{ team.url | relative_url }}">{{ team.title }}</a></h2>
                     <p class="team-description">{{ team.jobtitle }}</p>
+                    {% if team.igurl %}
+                    <a target="_blank" href="{{ team.igurl }}" rel="noreferrer">
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                    {% endif %}
+                    {% if team.ghurl %}
+                    <a target="_blank" href="{{ team.ghurl }}" rel="noreferrer">
+                        <i class="fa fa-github"></i>
+                    </a>
+                    {% endif %}
+                    {% if team.liurl %}
+                    <a target="_blank" href="{{ team.liurl }}" rel="noreferrer">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                    {% endif %}
                 </div>
+                <div class="team-content">{{ team.content | truncate: 120 }}</div>
             </div>
         </div>
         {% endfor %}
