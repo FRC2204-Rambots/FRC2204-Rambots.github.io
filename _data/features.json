@@ -1,7 +1,7 @@
 [
   {
     "title": "Sponsorships",
-    "description": "Our team is primarily relies on sponsors for funding.",
+    "description": "Our team primarily relies on sponsors for funding.",
     "image": {
       "url": "images/features/noun_branding_1885335.svg",
       "width": 80,
@@ -9,8 +9,8 @@
     }
   },
   {
-    "title": "STEM",
-    "description": "All members of our team are certified accountants.",
+    "title": "FIRST",
+    "description": "",
     "image": {
       "url": "images/features/noun_The Process_1885341.svg",
       "width": 80,
@@ -19,7 +19,7 @@
   },
   {
     "title": "For Non Profit",
-    "description": "We stay up to date on the latest changes to the tax code.",
+    "description": "We are a non profit organization.",
     "image": {
       "url": "images/features/noun_3d modeling_1885342.svg",
       "width": 80,

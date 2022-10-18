@@ -5,5 +5,4 @@ authorlink:
 weight: 1
 ---
 
-This is the first news post. 
-There are more to come!
+This is the first news post. There will be more posts to come.

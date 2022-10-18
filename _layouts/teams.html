@@ -19,11 +19,10 @@ bodyClass: "page-teams"
 </div>
 
 <div class="container pt-6 pb-6">
-    <h1>Leadership</h1>
     <div class="row">
         {% assign promoted_teams = site.team | sort: "weight" %}
         {% for team in promoted_teams %}
-        <div class="col-12 col-md-6 mb-2">
+        <div class="col-12 col-md-4 mb-3">
             <div class="team team-summary team-summary-large">
                 {% if team.image %}
                 <div class="team-image">
@@ -31,7 +30,12 @@ bodyClass: "page-teams"
                 </div>
                 {% endif %}
                 <div class="team-meta">
-                    <h2 class="team-name"><a href="{{ team.url | relative_url }}">{{ team.title }}</a></h2>
+                    {% if team.jobtitle contains 'Alumni' %}
+                    {% assign c_alumni = "alumni" %}
+                    {% else %}
+                    {% assign c_alumni = "" %}
+                    {% endif %}
+                    <h2 class="team-name"><a class="{{ c_alumni }}" href="{{ team.url | relative_url }}">{{ team.title }}</a></h2>
                     <p class="team-description">{{ team.jobtitle }}</p>
                     {% if team.igurl %}
                     <a target="_blank" href="{{ team.igurl }}" rel="noreferrer">
@@ -49,6 +53,9 @@ bodyClass: "page-teams"
                     </a>
                     {% endif %}
                 </div>
+                {% if team.image %}
+                <div class="team-content">{{ team.years | truncate: 120 }}</div>
+                {% endif %}
                 <div class="team-content">{{ team.content | truncate: 120 }}</div>
             </div>
         </div>

@@ -4,6 +4,7 @@ layout: page
 description: About
 bodyClass: page-about
 ---
+
 We are a high school robotics team that competes in a prestigious annual robotics competition held by the FIRST 
 organization. The build season lasts 6 weeks, and in that time, we apply our math, science, and engineering knowledge to
 build a fully-functioning robot.
