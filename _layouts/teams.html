@@ -19,6 +19,7 @@ bodyClass: "page-teams"
 </div>
 
 <div class="container pt-6 pb-6">
+    <h2>Showing {{ site.team | size }} members</h2>
     <div class="row">
         {% assign promoted_teams = site.team | sort: "weight" %}
         {% for team in promoted_teams %}
@@ -53,9 +54,6 @@ bodyClass: "page-teams"
                     </a>
                     {% endif %}
                 </div>
-                {% if team.image %}
-                <div class="team-content">{{ team.years | truncate: 120 }}</div>
-                {% endif %}
                 <div class="team-content">{{ team.content | truncate: 120 }}</div>
             </div>
         </div>

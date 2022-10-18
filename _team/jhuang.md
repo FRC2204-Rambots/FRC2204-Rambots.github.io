@@ -1,11 +1,10 @@
 ---
-title: "Ran Shen"
+title: "Jerald Huang"
 image: "images/team/default.svg"
-jobtitle: "Mentor"
+jobtitle: "CAD & Electrical"
 igurl: 
 ghurl: 
 liurl:
-weight: -1
+weight: 2
 ---
 
-Insert bio here.

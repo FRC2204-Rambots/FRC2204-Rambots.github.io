@@ -1,11 +1,10 @@
 ---
-title: "Ran Shen"
+title: "Daniel Chan"
 image: "images/team/default.svg"
-jobtitle: "Mentor"
+jobtitle: "Programming"
 igurl: 
 ghurl: 
 liurl:
-weight: -1
+weight: 2
 ---
 
-Insert bio here.

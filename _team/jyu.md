@@ -1,11 +1,10 @@
 ---
-title: "Ran Shen"
+title: "Jay Yu (Jaile Yu)"
 image: "images/team/default.svg"
-jobtitle: "Mentor"
+jobtitle: "Programming"
 igurl: 
 ghurl: 
 liurl:
-weight: -1
+weight: 2
 ---
 
-Insert bio here.

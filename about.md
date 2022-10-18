@@ -10,11 +10,13 @@ organization. The build season lasts 6 weeks, and in that time, we apply our mat
 build a fully-functioning robot.
 
 ## Established in 2010
-Originating in San Leandro, team 2204 was established by students who sought to inspire others in STEM fields and build
+Originating in San Leandro, Team 2204 was established by students who sought to inspire others in STEM fields and build
 engineering skills that would last a lifetime. The 2010 Breakaway Challenge was the beginning of a team that would make
 its mark in the community and students' lives.
 
 ## Our Goal
-The mission of FIRST® is to inspire young people to be science and technology leaders and innovators, by engaging them
-in exciting mentor-based programs that build science, engineering, and technology skills, that inspire innovation, and
-that foster well-rounded life capabilities including self-confidence, communication, and leadership.
+The mission of [FIRST®](https://www.firstinspires.org/robotics/frc) is to inspire young people to be science and technology 
+leaders and innovators, by engaging them in exciting mentor-based programs that build science, engineering, and 
+technology skills, that inspire innovation, and that foster well-rounded life capabilities including self-confidence, 
+communication, and leadership.
+

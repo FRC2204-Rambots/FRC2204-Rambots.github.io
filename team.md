@@ -9,5 +9,5 @@ intro_image_hide_on_mobile: false
 
 # Meet The Team
 
-Special thanks to our dedicated mentors, teachers, and alumni who have been apart of the team.
+Special thanks to our dedicated members, mentors, teachers, and alumni who have been apart of the team.
 

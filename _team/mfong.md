@@ -5,8 +5,7 @@ jobtitle: "Mentor"
 igurl: 
 ghurl: 
 liurl:
-weight: 1
-years: 
+weight: -1
 ---
 
 Insert bio here.

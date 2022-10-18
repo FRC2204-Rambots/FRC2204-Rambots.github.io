@@ -1,11 +1,11 @@
 ---
-title: "Ran Shen"
+title: "Christine Lai"
 image: "images/team/default.svg"
-jobtitle: "Mentor"
+jobtitle: "Business Captain"
 igurl: 
-ghurl: 
+ghurl:
 liurl:
-weight: -1
+weight: 0
 ---
 
 Insert bio here.

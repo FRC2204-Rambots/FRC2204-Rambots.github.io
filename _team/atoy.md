@@ -1,11 +1,10 @@
 ---
-title: "Ran Shen"
+title: "Aiden Toy"
 image: "images/team/default.svg"
-jobtitle: "Mentor"
+jobtitle: "Build Team"
 igurl: 
 ghurl: 
 liurl:
-weight: -1
+weight: 2
 ---
 
-Insert bio here.

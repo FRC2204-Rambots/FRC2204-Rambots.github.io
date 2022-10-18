@@ -1,11 +1,10 @@
 ---
-title: "Ran Shen"
+title: "Bonnie Zou"
 image: "images/team/default.svg"
-jobtitle: "Mentor"
+jobtitle: "CAD & Safety"
 igurl: 
 ghurl: 
 liurl:
-weight: -1
+weight: 2
 ---
 
-Insert bio here.

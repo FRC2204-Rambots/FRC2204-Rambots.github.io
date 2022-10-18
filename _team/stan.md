@@ -1,11 +1,10 @@
 ---
-title: "Ran Shen"
+title: "Su-Han Tan"
 image: "images/team/default.svg"
-jobtitle: "Mentor"
+jobtitle: "Fabrication & Business"
 igurl: 
 ghurl: 
 liurl:
-weight: -1
+weight: 2
 ---
 
-Insert bio here.

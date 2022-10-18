@@ -1,7 +1,7 @@
 ---
-title: "Jedd Miguel"
+title: "Ian Chan"
 image: "images/team/default.svg"
-jobtitle: "Alumni - Build Captain"
+jobtitle: "Alumni - Electrical Captain"
 igurl:
 ghurl: 
 liurl: 

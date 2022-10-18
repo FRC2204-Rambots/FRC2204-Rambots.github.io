@@ -1,11 +1,10 @@
 ---
-title: "Ran Shen"
+title: "Phillip Ngo"
 image: "images/team/default.svg"
-jobtitle: "Mentor"
+jobtitle: "Electrical"
 igurl: 
 ghurl: 
 liurl:
-weight: -1
+weight: 2
 ---
 
-Insert bio here.

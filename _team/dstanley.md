@@ -1,11 +1,10 @@
 ---
-title: "Ran Shen"
+title: "Daniel Stanley"
 image: "images/team/default.svg"
-jobtitle: "Mentor"
+jobtitle: "CAD & Business"
 igurl: 
 ghurl: 
 liurl:
-weight: -1
+weight: 2
 ---
 
-Insert bio here.
