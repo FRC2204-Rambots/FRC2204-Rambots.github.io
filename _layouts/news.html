@@ -20,7 +20,7 @@ bodyClass: "page-news"
 
 <div class="container pt-6 pb-6">
   <div class="row">
-    {% assign news_articles = site.news | reverse %}
+    {% assign news_articles = site.news | sort: "date" | reverse %}
     {% for news_article in news_articles %}
     <div class="col-12 col-md-6 mb-3">
       <div class="news_article news_article-summary">

@@ -26,7 +26,8 @@ bodyClass: "page-home"
     <h1>Latest News</h1><br>
     <div class="row justify-content-start">
       {% assign limit = site.home.limit_news | default: 6 %}
-      {% for news_article in site.news limit: limit %}
+      {% assign news_articles = site.news | sort: "date" | reverse | limit: limit %}
+      {% for news_article in news_articles %}
       <div class="col-12 col-md-4 mb-1">
         <div class="news_article news_article-summary">
           <div class="news_article-content">

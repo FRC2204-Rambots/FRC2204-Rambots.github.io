@@ -19,4 +19,3 @@ The mission of [FIRST®](https://www.firstinspires.org/robotics/frc) is to inspi
 leaders and innovators, by engaging them in exciting mentor-based programs that build science, engineering, and 
 technology skills, that inspire innovation, and that foster well-rounded life capabilities including self-confidence, 
 communication, and leadership.
-
